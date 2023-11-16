@@ -1,0 +1,4 @@
+C:\Users\Nicol\OneDrive\Bureau\Nouveau dossier\UserApp.pdb
+C:\Users\Nicol\OneDrive\Bureau\Nouveau dossier\.env
+C:\Users\Nicol\OneDrive\Bureau\Nouveau dossier\appsettings.json
+C:\Users\Nicol\OneDrive\Bureau\Nouveau dossier\UserApp.exe
