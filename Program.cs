@@ -8,7 +8,7 @@ namespace App
     class Program
     {
         // La méthode Main de l'application principale sert de point d'entrée
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] optionNames =
             {
