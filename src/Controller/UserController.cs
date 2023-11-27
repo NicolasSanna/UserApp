@@ -187,10 +187,10 @@ namespace App.src.Controller
 
                 foreach (var result in results)
                 {
-                    int id = (int)result["id"];
-                    string firstname = (string)result["firstname"];
-                    string lastname = (string)result["lastname"];
-                    int age = (int)result["age"];
+                    int id = (int) result["id"];
+                    string firstname = (string) result["firstname"];
+                    string lastname = (string) result["lastname"];
+                    int age = (int) result["age"];
 
                     // L'affichage est organisé : 0 = colonne id
                     // après la virgule, le - signifie alignement à gauche, sinon il n'y aurait pas ce -.

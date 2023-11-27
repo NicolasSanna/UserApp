@@ -1,6 +1,5 @@
 ﻿// Chargement du client MySQL
 using MySql.Data.MySqlClient;
-using App.src.Services;
 using Microsoft.Extensions.Configuration;
 
 // Espace de nom correspondant à l'application et au dossier src/Model
@@ -22,11 +21,11 @@ namespace App.src.Model
         // Création de la méthode getInstance() pour le singleton
         public static Database GetInstance()
         {
-            if (Instance == null)
+            if (Database.Instance == null)
             {
-                Instance = new Database();
+                Database.Instance = new Database();
             }
-            return Instance;
+            return Database.Instance;
         }
 
         // Création de la connextion MySQL avec les informations
@@ -175,8 +174,6 @@ namespace App.src.Model
 
                 return lastInsertId;
             }
-        }
-
-        
+        } 
     }
 }
