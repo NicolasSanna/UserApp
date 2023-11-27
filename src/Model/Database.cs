@@ -31,7 +31,7 @@ namespace App.src.Model
         // Création de la connextion MySQL avec les informations
         private MySqlConnection GetDbConnection()
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
+            IConfiguration configuration = new ConfigurationBuilder()
                         .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
                         .AddJsonFile("appsettings.json")
                         .Build();
