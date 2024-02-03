@@ -179,3 +179,4 @@ C:\wamp64\www\UserApp\obj\Debug\net7.0\refint\UserApp.dll
 C:\wamp64\www\UserApp\obj\Debug\net7.0\UserApp.pdb
 C:\wamp64\www\UserApp\obj\Debug\net7.0\UserApp.genruntimeconfig.cache
 C:\wamp64\www\UserApp\obj\Debug\net7.0\ref\UserApp.dll
+C:\wamp64\www\UserApp\obj\Debug\net7.0\UserApp.sourcelink.json
